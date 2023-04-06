@@ -1,6 +1,6 @@
-{
-  "Type" : 'AWS::EC2::Instance'
-  "Properties" :
-    InstanceType : String
-    "KeyName" : String
-    "ImageId" : String
+
+  Type : 'AWS::EC2::Instance'
+  Properties :
+    InstanceType : t2.micro
+    KeyName : String
+    ImageId : String
