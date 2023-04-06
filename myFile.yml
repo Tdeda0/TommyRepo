@@ -3,4 +3,4 @@
   Properties :
     InstanceType : t2.micro
     KeyName : String
-    ImageId : String
+    ImageId : ami-06e46074ae430fba6
