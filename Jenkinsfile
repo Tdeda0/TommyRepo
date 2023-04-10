@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build'){
       steps {
-        sh'aws cloudformation create-stack --template-body file://myFile.yml --stack-name Pancake --region us-east-1'
+        sh'aws cloudformation create-stack --stack-name Pancake --template-body file://myFile.yml --region us-east-1'
       }
     
     }
