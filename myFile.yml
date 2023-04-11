@@ -2,5 +2,5 @@
   Type : 'AWS::EC2::Instance'
   Properties :
     InstanceType : t2.micro
-    KeyName : String
+    KeyName : TommyKey
     ImageId : ami-06e46074ae430fba6
