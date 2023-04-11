@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo "aws cloudformation create-stack --stack-name pancake --template-body file://myfile.yml --region us-east-1"
+        aws cloudformation create-stack --stack-name pancake --template-body file://myfile.yml --region us-east-1
       }
 
     }
